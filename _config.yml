@@ -11,7 +11,7 @@ site-twitter: #if your site has a twitter account, enter it here
 # Author Settings
 author: Rhett Hillary # add your name
 author-img: rhett.jpg # add your photo
-about-author: Systems Engineer, Photographer, Life hacker, dad # add description
+about-author: Systems Engineer, Photographer, Traveller & Experimentor # add description
 #social-twitter: # add your Twitter handle
 #social-facebook: # add your Facebook handle
 social-github: Rhettus # add your Github handle
@@ -19,7 +19,7 @@ social-linkedin: rhett-hillary-30232b4 # add your Linkedin handle
 #social-email: # add your Email address
 
 # Disqus
-discus-identifier: mr-brown # add your discus identifier
+discus-identifier: # mr-brown # add your discus identifier
 
 # Tracker
 analytics: # Google Analytics
