@@ -36,6 +36,11 @@ layout: default
         {% else %}
         <li class="flickr"><a href="https://flickr.com/" target="_blank"><i class="fa fa-flickr" aria-hidden="true"></i></a></li>
         {% endif %}
+        {% if site.social-instagram %}
+        <li class="instagram"><a href="https://instagram.com/{{site.social-instagram}}" target="_blank"><i class="fa fa-instagram"></i></a></li>
+        {% else %}
+        <li class="instagram"><a href="https://instagram.com/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+        {% endif %}
       </ul>
     </section> <!-- End Section Contact -->
     <div class="copyright">
