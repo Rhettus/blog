@@ -1,6 +1,5 @@
 title: Stuff and things 
-description: > # this means to ignore newlines until "baseurl:"
-Projects with computers, cameras and around the house.
+description: Projects with computers, cameras and around the house.
 permalink: ':title/'
 baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "https://rhettus.github.io" # the base hostname & protocol for your site, e.g. http://example.com
