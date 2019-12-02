@@ -23,7 +23,11 @@ I then grabbed one of the `/etc/shadow` hashes one of my staff had generated. I 
 
 `echo $6$UbAY9/dOfT.JSlNR$cm18pOdW5/SJvxcO1VXXXXXWrNs8/L3qVqesJhpIpF8pj1XXXXXG57Twlv8/hkQj9janCxwFKh6dwxxzLXXXXX > hash.txt`
 
-Before starting the process I decided to throw another Nvidia GTX 1080 in my rig to speed things up since hashcat uses GPU's to speed things up. To kick things off I used the following command:
+Before starting the process I decided to throw another Nvidia GTX 1080 in my rig to speed things up since hashcat uses GPU's to speed things up. 
+
+![dualgpu](https://i.imgur.com/ATeDTlO.jpg)
+
+To kick things off I used the following command:
 
 `hashcat -m 1800 -a 0 --session session1 -o cracked.txt hash.txt ./crackstation.txt -O -w 3`
 
