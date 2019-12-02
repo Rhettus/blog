@@ -2,7 +2,7 @@ title: Stuff and things
 description: Projects with computers, cameras and around the house.
 permalink: ':title/'
 baseurl: "/blog" # the subpath of your site, e.g. /blog
-url: "https://rhettus.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://rhett.cc" # the base hostname & protocol for your site, e.g. http://example.com
 site-twitter: #if your site has a twitter account, enter it here
 
 # Author Settings
