@@ -9,7 +9,7 @@ categories: Tech
 
 I have had some issues with my RAIDZ2 storage pool and general performance under XigmaNAS/FreeBSD. I was seeing issues with my VirtualBox VM which runs BlueIris security sotfware under a Windows 10 VM being generally laggy and unresponsive. I tried all the usual trick which write caching etc but it was still slow.
 
-I thought I would try to track down my issues and the porcess I go through and document it here. 
+I thought I would try to track down my issues and document the process I go through here. 
 
 During a standard resilver I found the following performance.
 
@@ -85,52 +85,44 @@ Transfer rates:
         middle:        102400 kbytes in   1.811469 sec =    56529 kbytes/sec
         inside:        102400 kbytes in   2.676795 sec =    38255 kbytes/sec
 ```
+
+Interestingly ada0 did not respond to this. A clue? I tried again later on ada0 and got the following seek times. The full stroke time is off the charts
+
+```
+Seek times:
+        Full stroke:      250 iter in 104.906918 sec =  419.628 msec
+        Half stroke:      250 iter in  10.341546 sec =   41.366 msec
+        Quarter stroke:   500 iter in  20.552574 sec =   41.105 msec
+        Short forward:    400 iter in   4.611131 sec =   11.528 msec
+        Short backward:   400 iter in   6.014354 sec =   15.036 msec
+        Seq outer:       2048 iter in   0.196127 sec =    0.096 msec
+        Seq inner:       2048 iter in   0.164158 sec =    0.080 msec
+
+Transfer rates:
+        outside:       102400 kbytes in   0.717848 sec =   142649 kbytes/sec
+        middle:        102400 kbytes in   1.523067 sec =    67233 kbytes/sec
+        inside:        102400 kbytes in   1.546337 sec =    66221 kbytes/sec
+```
+
 ## Use "gstat" to find which disk is busy
 
-This is a great uility which really helped me hone is on which disk was holding up the resilver. I have been looking at the %busy column and found that my ada0 device was constantly at or over 100%
+This is a great uility which really helped me hone in on which disk was holding up the resilver. I have been looking at the %busy column and found that my ada0 device was constantly at or over 100%. ada1 was the device being replaced during the resilver.
 
 `gstat -I 10s`
 
 
 ```
-dT: 0.057s  w: 10.000s
+dT: 10.006s  w: 10.000s
  L(q)  ops/s    r/s   kBps   ms/r    w/s   kBps   ms/w   %busy Name
     0      0      0      0    0.0      0      0    0.0    0.0| md0
     0      0      0      0    0.0      0      0    0.0    0.0| md1
-   10    316    316  36079   18.6      0      0    0.0  111.8| ada0
-    1    246      0      0    0.0    246   1474    0.9   22.6| ada1
-    8    316    316  34745   17.1      0      0    0.0   95.0| ada2
-    5    491    491  55522   13.5      0      0    0.0  112.7| ada3
-   16    667    667  80511   11.4      0      0    0.0   99.1| ada4
-    0      0      0      0    0.0      0      0    0.0    0.0| ada5
-    9    193    193  20356   25.2      0      0    0.0  101.2| ada6
-    3    614    614  73772   13.7      0      0    0.0  112.5| ada7
-    0      0      0      0    0.0      0      0    0.0    0.0| da0
-    2     70     70  36079   29.2      0      0    0.0  111.8| ada0p1
-    2     70     70  36079   29.2      0      0    0.0  111.8| gpt/raidz2disk2
-    2     70     70  32499   20.4      0      0    0.0   93.0| ada2p1
-    2    105    105  39799   16.2      0      0    0.0   92.8| ada3p1
-    2    140    140  80511   13.9      0      0    0.0   99.1| ada4p1
-    0      0      0      0    0.0      0      0    0.0    0.0| ada5p1
-    0      0      0      0    0.0      0      0    0.0    0.0| gpt/gptroot
-    2     53     53  18110   25.4      0      0    0.0   99.7| ada6p1
-    2    105    105  58049   15.9      0      0    0.0  100.9| ada7p1
-    0      0      0      0    0.0      0      0    0.0    0.0| ufsid/60985e4400793734
-    0      0      0      0    0.0      0      0    0.0    0.0| da0p1
-    0      0      0      0    0.0      0      0    0.0    0.0| da0p2
-    0      0      0      0    0.0      0      0    0.0    0.0| da0p3
-    0      0      0      0    0.0      0      0    0.0    0.0| da0p4
-    2     70     70  32499   20.4      0      0    0.0   93.0| gpt/raidz2disk6
-    2    105    105  39799   16.2      0      0    0.0   92.8| gpt/raidz2disk0
-    2    140    140  80511   13.9      0      0    0.0   99.1| gpt/raidz2disk5
-    0      0      0      0    0.0      0      0    0.0    0.0| gpt/raidz2disk7
-    2     53     53  18110   25.4      0      0    0.0   99.7| gpt/raidz2disk1
-    2    105    105  58049   15.9      0      0    0.0  100.9| gpt/raidz2disk4
-    0      0      0      0    0.0      0      0    0.0    0.0| gpt/gptboot
-    0      0      0      0    0.0      0      0    0.0    0.0| ufs/embboot
-    0      0      0      0    0.0      0      0    0.0    0.0| zvol/storage/virt-www
-    0      0      0      0    0.0      0      0    0.0    0.0| gpt/data
-    0      0      0      0    0.0      0      0    0.0    0.0| ufsid/5edbd33911af3812
-    0      0      0      0    0.0      0      0    0.0    0.0| ufs/data
+    5    169    154   7372   15.9     14    133    0.2   99.1| ada0
+    1    957      0      0    0.0    957   5103    0.4   37.4| ada1
+    2    105     91   2713   12.7     14    118    0.1   45.2| ada2
+    3    114    100   3152    9.2     14    127    0.4   42.1| ada3
+    2    144    129   5910   11.6     14    124    0.3   65.7| ada4
+    0     14      0      2   12.1     14    124    0.1    3.2| ada5
+    2    148    133   5860   12.3     14    132    0.1   57.1| ada6
+    2    153    137   6215   11.0     15    126    0.1   65.2| ada7
 ```
 Once this resilver is complete, I will replace ada0. Stay tuned!
