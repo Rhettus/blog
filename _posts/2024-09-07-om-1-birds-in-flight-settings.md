@@ -20,10 +20,10 @@ These settings suit my style of getting the most out of the OM-1, I expose to th
 
 Tip: The histogram has a white area which represents the whole scene but within that there is also green area which represents your focus area (usually a bird)
 
-# Pre-requisits 
+# Prerequisites
 
 ## Perform a factory reset
-Even if your camera is new or especially if it is used, perform a factory reset. I have had unknown settings affect my C-AF autofocus accuracy.. Shoot factory and change minimal settings with regards to autofocus.
+Even if your camera is new or especially if it is used, perform a factory reset. I have had unknown settings affect my C-AF autofocus accuracy. Shoot factory settings and change on required settings with regards to autofocus.
 
 ## Upgrade firmware
 This article assumes firemware v1.7, which makes the `All` focus points with bird detection more usable. 
@@ -52,7 +52,7 @@ For birds, I'm always in C-AF+MF. I use back button focus and disable the focus 
 This settings allows manual focus override while still using autofocus, it can be handy when the camera gets confused and focuses on the wrong thing.
 ![](../assets/img/OM-1/AF+MF.jpg)
 
-This setting puts boxes around the bird, the birds head and hopefully the birds eye. I use on1 as opposed to on2 which also shows green boxes over the focus area. I really try to look for the head and eye boxes and on2 tends to get in the way.
+This setting puts boxes around the bird, the birds head and hopefully the birds eye. I use `on1` as opposed to `on2` which also shows green boxes over the focus area. I really try to look for the head and eye boxes before pressing the shutter, `on2` tends to get in the way.
 ![](../assets/img/OM-1/AF%20Area%20Pointer.jpg)
 
 Back button AF is enabled by default but so is focusing by half pressing the shutter button. I disable the half press shutter button AF and just focus with the `AF-ON` button on the rear of the camera
@@ -63,7 +63,7 @@ Back button AF is enabled by default but so is focusing by half pressing the shu
 ## EVF Settings
 
 ### Hightlights & Histogram
-Once the following have been set, press the "info" button on the back of the camera to enable it. I actually set these in information 2 (not 1 as in the second image). To test you should see the histogram in the EVF and if you over expose and clip highlights, they should turn RED, or underexpose and clip they will turn BLUE. The objective is to over expose your shots, but not clip in RED.
+Once the following have been set, press the `info` button on the back of the camera to enable it. I actually set these in information 2 (not 1 as in the second image). To test you should see the histogram in the EVF and if you over expose and clip highlights, they should turn RED, or underexpose and clip they will turn BLUE. The objective is to over expose your shots, but not clip in RED.
 
 ![](../assets/img/OM-1/EVF%20Highlight1.jpg)![](../assets/img/OM-1/EVFHighlight2.jpg)![](../assets/img/OM-1/EVFHighlight3.jpg)
 
@@ -128,7 +128,7 @@ I use this mode based off the `shutter priority` mode to shoot birds about to ta
 - Exposure mode - Aperture priority (wide open) 
 - Subject detection - Birds
 - Autofocus mode - C-AF + MF
-- Auto ISO (up to 12800) - This can be changed by holding down the ISO button and adjusting with the front dial
+- Auto ISO (up to 12800) 
 - Drive mode - Procap SH2 - 50fps 
 - Shutter speed - Start at 1/2500th
 - Meter mode - ESP
