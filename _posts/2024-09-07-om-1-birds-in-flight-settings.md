@@ -40,7 +40,7 @@ I always shoot RAW only. Ensure this is set, the default is a medium jpeg.
 
 ### Hightlights & Histogram
 
-![](/img/OM-1/EVF%20Highlight1.jpg)![](/img/OM-1/EVFHighlight2.jpg)![](/img/OM-1/EVFHighlight3.jpg)
+![](../assets/img/OM-1/EVF%20Highlight1.jpg)![](../assets/img/OM-1/EVFHighlight2.jpg)![](../assets/img/OM-1/EVFHighlight3.jpg)
 
 ### Grid colors
 
