@@ -34,28 +34,46 @@ These are settings I keep the same through all the Custom modes or globally
 
 ## Picture Settings
 
-I always shoot RAW only. Ensure this is set, the default is a medium jpeg.
+I always shoot RAW only. Ensure this is set, the default is a medium jpeg. Here is a general overview of the Super Control panel, you can access this by pressing `ok`
+
+![](/assets/img/OM-1/Super%20Control.jpg)
+
+
 
 ## EVF Settings
 
 ### Hightlights & Histogram
+Once the following have been set, press the "info" button on the back of the camera to enable it. I actually set these in information 2. To test you should see the histogram in the EVF and if you over exposure and clip highlights, they should turn RED, or underexpose and clip they will turn BLUE. The objective to over expose your shots, but not clip in RED.
 
-![](../assets/img/OM-1/EVF%20Highlight1.jpg)![](../assets/img/OM-1/EVFHighlight2.jpg)![](../assets/img/OM-1/EVFHighlight3.jpg)
+![](/assets/img/OM-1/EVF%20Highlight1.jpg)![](/assets/img/OM-1/EVFHighlight2.jpg)![](/assets/img/OM-1/EVFHighlight3.jpg)
 
 ### Grid colors
 
 ## Buttons and Dials
-The `front dial` is always set the change the shutter speed. The `back dial` changes the aperture (if in manual mode) or exposure compenstation if in shutter or aperture priority.  
+The `front dial` is always set the change the shutter speed. The `back dial` changes the aperture (if in manual mode) or exposure compenstation if in shutter or aperture priority.  I try to keep them as consistent as possible so when I change modes it feels natural.
+
+For Manual bases settings (C1)
+![](/assets/img/OM-1/DialsManual.jpg)
+
+For Apterture priority based modes. (C2)
+![](/assets/img/OM-1/DialsAperture.jpg)
+
+For Shutter priority based modes. (C3)
+![](/assest/img/OM-1/DialsShutter.jpg)
 
 ### Toggle switch
-In each custom mode below, I use the toggle switch to quickly can the number of focus points. In the first position `All` focus points are selected
+In each custom mode below, I use the toggle switch to quickly can the number of focus points. In the first position `All` focus points are selected. In each custom mode you need to change the EVF view, Autofocus drive mode etc, then save the mode.
 
 ### AEL
 I assign this to magnify. Once pressed you can zoom in our out using the front dial. To exit hit the `ok` button. I find this relly useful even if I'm not particularly going to take a photo of a bird but rather just identify a bird.
 
+![](/aseets/img/OM-1/Magnify.jpg)
+
 ## Wifi/Bluetooth/Airplane
 
 I turn these off by default (by turning airplane mode on) and only enable them if needed. This helps save battery.
+
+![](/assets/img/OM-1/Airplane.jpg)
 
 
 # Custom Modes
@@ -95,6 +113,10 @@ Shutter speed - Start at 1/2500th
 Meter mode - ESP
 
 # MySets
+
+I use this menu, right at the end to easy access settings which are buried in the menus. They are like shortcuts, but usually not used for birds
+
+![](/assets/img/OM-1/MySets.jpg)
 
 # Troubleshooting
 
