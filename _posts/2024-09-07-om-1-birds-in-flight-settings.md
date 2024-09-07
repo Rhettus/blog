@@ -34,13 +34,13 @@ These are settings I keep the same through all the Custom modes or globally
 
 ## Picture Settings
 
-I always shoot RAW only. Ensure this is set, the default is a medium jpeg
+I always shoot RAW only. Ensure this is set, the default is a medium jpeg.
 
 ## EVF Settings
 
-### Hightlights
+### Hightlights & Histogram
 
-### Histogram
+![](/img/OM-1/EVF%20Highlight1.jpg)![](/img/OM-1/EVFHighlight2.jpg)![](/img/OM-1/EVFHighlight3.jpg)
 
 ### Grid colors
 
