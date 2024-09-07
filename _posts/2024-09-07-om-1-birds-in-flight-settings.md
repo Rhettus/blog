@@ -136,7 +136,7 @@ I noticed at one stage my C-AF accuracy decreased for unknown reasons. I tested 
 # Download my settings
 All bird modes are operated with C1, C2, and C3. I have reset the other modes like A, S, and M for general purpose shooting, travel, landscapes etc. When shooting those I generally use single shot S-AF, no subject detection, single point AF, but still the electronic shutter.
 
-The following can be restored in OM Workstation. If you experience issues or thing appear worse, perform factory reset and apply the settings manually.
+The following can be restored in OM Workstation. If you experience issues or thing appear worse, perform factory reset and apply the settings manually. Please note I take no responsibility for any issues these setting may cause. Personally I would apply the settings manually instead of taking some unknown internet persons word for it.
 
 [OM-1 Saved Settings](../assets/img/OM-1/OM-1_20240907.set)
 
