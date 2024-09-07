@@ -16,7 +16,9 @@ I have had the OM-1 for 6+ months and feel like I am only just coming to grips w
 
 While the OM-1 has the excellent SH2 drive mode which can do blackout free 50fps RAW files, there is some downside to using it. Firstly is affects the EVF preview, generally the scene looks darker in the EVF, (it doesnt change with exposure changes) for this reason it's important to read the histogram for expsoure when using it. The other downside is you can not drop the shutter below 1/640th of a second, this is no problem for birds in flight, but is a limitation when shooting perched birds in dark forest. Remember the OM-1 has excellent IBIS, I use it down to 1/40th of a second safely which really helps to keep ISO down. 
 
-These settings suit my style of getting the most out of the OM-1, I expose to the right of the histogram which produces a very bright image. But once pulled down in post it shows minimal noise. I'm always looking at the histogram in the EVF. 
+These settings suit my style of getting the most out of the OM-1, I expose to the right of the histogram which produces a very bright image. But once pulled down in post it shows minimal noise. I'm always looking at the histogram in the EVF, learn to read it.
+
+Tip: The histogram has a white area which represents the whole scene but within that there is also green area which represents your focus area (usually a bird)
 
 # Pre-requisits 
 
@@ -40,7 +42,7 @@ No one needs the AF light on the front of the camera for distance birds, its jus
 
 ## Picture Settings
 
-I always shoot RAW only. Ensure this is set, the default is a medium jpeg. Here is a general overview of the Super Control panel, you can access this by pressing `ok`
+I always shoot RAW only. Ensure this is set, the default is a medium jpeg. Here is a general overview of the Super Control panel, you can access this by pressing `ok`, this is also how you can quickly change settings not controlled by buttons or dials.
 
 ![](../assets/img/OM-1/Super%20Control.jpg)
 
@@ -61,11 +63,12 @@ Back button AF is enabled by default but so is focusing by half pressing the shu
 ## EVF Settings
 
 ### Hightlights & Histogram
-Once the following have been set, press the "info" button on the back of the camera to enable it. I actually set these in information 2. To test you should see the histogram in the EVF and if you over exposure and clip highlights, they should turn RED, or underexpose and clip they will turn BLUE. The objective to over expose your shots, but not clip in RED.
+Once the following have been set, press the "info" button on the back of the camera to enable it. I actually set these in information 2 (not 1 as in the second image). To test you should see the histogram in the EVF and if you over expose and clip highlights, they should turn RED, or underexpose and clip they will turn BLUE. The objective is to over expose your shots, but not clip in RED.
 
 ![](../assets/img/OM-1/EVF%20Highlight1.jpg)![](../assets/img/OM-1/EVFHighlight2.jpg)![](../assets/img/OM-1/EVFHighlight3.jpg)
 
 ### Grid colors
+Coming soon - I find the standard green boxes are very hard to see in a lot of the environments I shoot in. You can change the box color to produce more contrast when out shooting.
 
 ## Buttons and Dials
 The `front dial` is always set the change the shutter speed. The `back dial` changes the aperture (if in manual mode) or exposure compenstation if in shutter or aperture priority.  I try to keep them as consistent as possible so when I change modes it feels natural.
@@ -80,12 +83,12 @@ For Shutter priority based modes. (C3)
 ![](/assest/img/OM-1/DialsShutter.jpg)
 
 ### Toggle switch
-In each custom mode below, I use the toggle switch to quickly can the number of focus points. In the first position `All` focus points are selected. In each custom mode you need to change the EVF view, Autofocus drive mode etc, then save the mode.
+In each custom mode below, I use the toggle switch to quickly can the number of focus points. In the first position `All` focus points are selected, and the second position a single AF point is seleted for those difficult situatons. In each custom mode you need to change the EVF view, Autofocus drive mode etc, then save the mode.
 
 ### AEL
 I assign this to magnify. Once pressed you can zoom in our out using the front dial. To exit hit the `ok` button. I find this relly useful even if I'm not particularly going to take a photo of a bird but rather just identify a bird.
 
-![](../aseets/img/OM-1/Magnify.jpg)
+![](../assets/img/OM-1/Magnify.jpg)
 
 ## Wifi/Bluetooth/Airplane
 
@@ -137,6 +140,7 @@ I use this menu, right at the end to easy access settings which are buried in th
 ![](../assets/img/OM-1/MySets.jpg)
 
 # Troubleshooting
+I noticed at one stage my C-AF accurancy decreased for unknown reasons. I tested by taking a photo of my monitor at minimum focusing distance, single AF point. One shot in C-AF mode and one in S-AF. The C-AF mode was notably softer than the S-AF. I could not track down the settings, but doing a factory reset and applying the settings on this page fixed the issue.
 
 # Download my settings
 
