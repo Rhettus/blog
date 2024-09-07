@@ -134,3 +134,9 @@ I use this menu, right at the end, to easily access settings that are buried in 
 I noticed at one stage my C-AF accuracy decreased for unknown reasons. I tested by taking a photo of my monitor at minimum focusing distance, single AF point. One shot in C-AF mode and one in S-AF. The C-AF mode was notably softer than the S-AF. I could not track down the settings, but doing a factory reset and applying the settings on this page fixed the issue.
 
 # Download my settings
+All bird modes are operated with C1, C2, and C3. I have reset the other modes like A, S, and M for general purpose shooting, travel, landscapes etc. When shooting those I generally use single shot S-AF, no subject detection, single point AF, but still the electronic shutter.
+
+The following can be restored in OM Workstation. If you experience issues or thing appear worse, perform factory reset and apply the settings manually.
+
+[OM-1 Saved Settings](../assets/img/OM-1/OM-1_20240907.set)
+
