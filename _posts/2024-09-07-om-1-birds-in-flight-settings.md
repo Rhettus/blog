@@ -12,14 +12,16 @@ type: default
 ---
 
 # Intro
-I have had the OM-1 for 6+ months and feel like I am only just coming to grips with it. Generally I use a base ISO of 1600 which I find most software has no issues with removing. If you just want to blindly apply my settings, you can skip to the end and download my settings file which can be applied using OM Workstation. 
+I have had the OM-1 for 6+ months and feel like I am only just coming to grips with it. Generally I use a base ISO of 1600 which I find most software has no issues with removing noise, this allows me to keep the shutter speed up in most situations. If you just want to blindly apply my settings, you can skip to the end and download my settings file which can be applied using OM Workstation. 
 
-While the OM-1 has the excellent SH2 drive mode which can do blackout free 50fps RAW files there is some downside to using it. Firstly is affects the EVF preview, generally the scene looks darker than the EVF reecords, for this reason it's important to read the histogram for expsoure. The other downside is SH2 cant drop the shutter below 1/640th of a second, this is no problems for birds in flight, but is a limitation when shooting perched birds in dark forest. Remember the OM-1 has excellent IBIS, I use it down to 1/40th of a second safely which really helps to keep ISO down. 
+While the OM-1 has the excellent SH2 drive mode which can do blackout free 50fps RAW files, there is some downside to using it. Firstly is affects the EVF preview, generally the scene looks darker than the EVF records, for this reason it's important to read the histogram for expsoure. The other downside is you can not drop the shutter below 1/640th of a second, this is no problem for birds in flight, but is a limitation when shooting perched birds in dark forest. Remember the OM-1 has excellent IBIS, I use it down to 1/40th of a second safely which really helps to keep ISO down. 
+
+These settings suit my style of getting the most out of the OM-1, I expose to the rigth of the histogram but produces a very bright image. But once pulled down in post it shows minimal noise. I'm always looking at the histogram in the EVF. 
 
 # Pre-requisits 
 
 ## Perform a factory reset
-Even if your camera is new or especially if it is used, perform a factory reset. 
+Even if your camera is new or especially if it is used, perform a factory reset. I have had unknown settings affect my C-AF autofocus accuracy.. Shoot factory and change minimal settings with regards to autofocus.
 
 ## Upgrade firmware
 This article assumes firemware v1.7, which makes the `All` focus points with bird detection more usable. 
@@ -29,6 +31,10 @@ Note: During firmware updates, shutter speed in all modes, date and language are
 
 # Global settings
 These are settings I keep the same through all the Custom modes or globally
+
+## Picture Settings
+
+I always shoot RAW only. Ensure this is set, the default is a medium jpeg
 
 ## EVF Settings
 
