@@ -9,12 +9,12 @@ site-twitter: #if your site has a twitter account, enter it here
 author: Rhett Hillary # add your name
 author-img: rhett.jpg # add your photo
 about-author: Systems Engineer, Photographer, Traveller & Experimentor # add description
-social-twitter: siftu951 # add your Twitter handle
+#social-twitter: siftu951 # add your Twitter handle
 #social-facebook: # add your Facebook handle
 social-github: Rhettus # add your Github handle
 social-linkedin: rhett-hillary-30232b4 # add your Linkedin handle
 social-flickr: siftu # add your Flickr handle
-social-instagram: siftussnaps # add your Flickr handle
+#social-instagram: siftussnaps # add your Flickr handle
 #social-email: # add your Email address
 
 # Disqus
