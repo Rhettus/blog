@@ -3,7 +3,8 @@ title: OM-1 Birds in Flight Settings
 description: Settings for the OM Systems OM-1 - Birds in Flight
 date: 2024-09-07T18:43:24.954Z
 preview: ""
-draft: true
+draft: flase
+img: Kite.jpg
 tags:
     - Photography
     - Birds
