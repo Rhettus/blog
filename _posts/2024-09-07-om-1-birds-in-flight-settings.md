@@ -11,7 +11,6 @@ categories: []
 type: default
 ---
 
-# Intro
 I have had the OM-1 for over 6 months and feel like I am only just coming to grips with it. Generally, I use a base ISO of 1600, which I find most software can handle without issues when removing noise. This allows me to keep the shutter speed up in most situations. If you just want to blindly apply my settings, you can skip to the end and download my settings file, which can be applied using OM Workstation.
 
 While the OM-1 has the excellent SH2 drive mode, which can do blackout-free 50fps RAW files, there are some downsides to using it. Firstly, it affects the EVF preview; generally, the scene looks darker in the EVF (it doesn't change with exposure changes). For this reason, it's important to read the histogram for exposure when using it. The other downside is you cannot drop the shutter below 1/640th of a second. This is no problem for birds in flight, but it is a limitation when shooting perched birds in dark forests. Remember, the OM-1 has excellent IBIS, which I use down to 1/40th of a second safely; this really helps to keep ISO down.
