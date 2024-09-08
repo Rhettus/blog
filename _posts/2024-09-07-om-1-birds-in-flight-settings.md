@@ -1,6 +1,6 @@
 ---
-title: OM-1 Birds in Flight Settings
-description: Settings for the OM Systems OM-1 - Birds in Flight
+title: OM-1 - Birds Settings
+description: Settings for the OM Systems OM-1 - Birds in Flight & more
 date: 2024-09-07T18:43:24.954Z
 preview: ""
 draft: flase
