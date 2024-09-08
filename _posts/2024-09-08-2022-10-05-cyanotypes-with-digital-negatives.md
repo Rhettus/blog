@@ -1,7 +1,7 @@
 ---
-title: 2022-10-05-Cyanotypes with digital neagtives
+title: Cyanotypes with Digital Negatives
 description: ""
-date: 2024-09-08T22:56:25.270Z
+date: 2022-10-05T22:56:25.270Z
 preview: ""
 tags: []
 categories: []
