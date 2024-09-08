@@ -26,6 +26,9 @@ layout: default
         {% else %}
           <li class="linkedin"><a href="https://in.linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
         {% endif %}
+        {% if site.social-website %}
+        <li class="website"><a href="https://{{site.social-website}}" target="_blank"><i class="fa fa-camera"></i></a></li>
+        {% endif %}
         {% if site.social-flickr %}
         <li class="flickr"><a href="https://flickr.com/photos/{{site.social-flickr}}" target="_blank"><i class="fa fa-flickr"></i></a></li>
         {% else %}
