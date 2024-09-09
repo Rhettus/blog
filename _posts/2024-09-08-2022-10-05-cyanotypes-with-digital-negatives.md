@@ -194,7 +194,7 @@ Vinegar greatly changes the curve of the print. Cyanotypes prefer to be on the a
 You can dilute the vinegar with tap water, this way it still remains on the acidic side.
 Observations. Unless otherwise stated testing was performed with Canson XL watercolor paper. 
 
-| Water | Water | Notes |
+| Vinegar | Water | Notes |
 |-------|--------|--------|
 | 1 | 0 | 3 mins. Lots of tone and drastically reduces the exposure times. Stains the highlights blue |
 | 1 | 3 | ✅25% vinegar, this is what I settled on with a 13 minute exposure on Bristol paper. |
