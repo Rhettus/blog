@@ -2,6 +2,7 @@
 title: Cyanotypes with Digital Negatives
 description: ""
 date: 2022-10-05T22:56:25.270Z
+img: canotypes/cyanotypes_cover.jpg
 preview: ""
 tags: []
 categories: []
@@ -9,18 +10,25 @@ type: default
 ---
 
 Cyanotypes are meant to be the no-brainer of alternative printing but there is still some not so obvious requirements and many.. many variables.
+
 This is a record of all the mistakes I have learned with my Cyanotype and digital negatives experimentation. 
+
 General note: If results are undesired or unpredictable, its best to start over with good quality materials. I.e. Don’t cheap out on things like papers, expired chemical, printers/inks, transparencies etc. It can cause more work, frustration and end up costing you more in both money and time. I’m speaking from experience.
 
 # EXAMPLES
 Some examples of my cyanotypes after refining my process
 
+![](../assets/img/cyanotypes/examples.png)
+
+https://imgur.com/a/NVG5mCV
 
 # CHEMICALS
-Mixing
-I’m using the standard “classic” chemicals - Jacquard and mix with distilled water only. Leave it sit for 24 hours before using and mixing.
+## Mixing
+I’m using the standard “classic” chemicals - [Jacquard](https://www.amazon.com/gp/product/B010MN312S/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1) and mix with distilled water only. Leave it sit for 24 hours before using and mixing.
+
 ⚠️ Part  B can develop mold in the solution over time. This can be removed by running it through coffee filter
-Expiry - Old vs New chemicals
+
+## Expiry - Old vs New chemicals
 Does this change any variables? I’ll update this section when I mix a new bottle. Update: I have not seen anything in my prints between different ages of chemicals. They last months to years.
 
 # PAPER 
@@ -262,26 +270,27 @@ Relative humidity when coating. Around 60% or more
 The exposure time. The printer and inks used for a digital negative. Epson inks block UV light better.
 The printer settings. Increase the print density and increase exposure to get more separation between tones.
 Notes on midtones. “Ive found too if the negative doesn't have enough uv absorption the mid to white tones cant be calibrated well as theres not enough numerical separation between each step in the scale. I punched up the ink density on mine and got way better tones but then started having banding problems from the substrate not holding the ink as well.”
-Highlights
+
+## Highlights
 When printing your digital negative, if the highlights have tones (not a bright as they should be) then add more density to the digital negative via the printer settings. If there is a large white area at the bottom the step wedge, decrease the print density.
 
-Shadows
+## Shadows
 This is generally controlled by the exposure time. If you have too many shadows after corrections, then try decreasing time.
 
 # REFERENCES
-Prussian Blues - Experimenting with papers, UV enlargers, Vinegar developing etc. This channel is full of useful information.
-Lauren Fiebert - Start to finish Cyanotype process including bleaching and toning in a single session
-Tom Nelson - Fixxon vs Pictorico
-Tom Nelson - Creating a Digital Negative
-Charthorb - Automated curve generator
-How to set up digital negative Gradient maps
-Paper comparisons - Christina Z. Anderson 
-Another paper list
-Peter Mrhar - Cyanotype process including paper comparison
-Bostick & Sullivan Digital Negatives - https://www.photo-historica.com/digitalnegatives
-Cyanomicon - Free e-book https://www.mikeware.co.uk/downloads/Cyanomicon.pdf
-Sulfamic-acid-for-paper-acidification - https://www.photrio.com/forum/threads/sulfamic-acid-for-paper-acidification.102747/
-UV Exposure box build
-Mat Hughes - Excellent cyanotype examples
+- Prussian Blues - Experimenting with papers, UV enlargers, Vinegar developing etc. This channel is full of useful information.
+- Lauren Fiebert - Start to finish Cyanotype process including bleaching and toning in a single session
+- Tom Nelson - Fixxon vs Pictorico
+- Tom Nelson - Creating a Digital Negative
+- Charthorb - Automated curve generator
+- How to set up digital negative Gradient maps
+- Paper comparisons - Christina Z. Anderson 
+- Another paper list
+- Peter Mrhar - Cyanotype process including paper comparison
+- Bostick & Sullivan Digital Negatives - https://www.photo-historica.com/digitalnegatives
+- Cyanomicon - Free e-book https://www.mikeware.co.uk/downloads/Cyanomicon.pdf
+- Sulfamic-acid-for-paper-acidification - https://www.photrio.com/forum/threads/sulfamic-acid-for-paper-acidification.102747/
+- UV Exposure box build
+- Mat Hughes - Excellent cyanotype - examples
 
 
