@@ -16,11 +16,10 @@ This is a record of all the mistakes I have learned with my Cyanotype and digita
 General note: If results are undesired or unpredictable, its best to start over with good quality materials. I.e. Don’t cheap out on things like papers, expired chemical, printers/inks, transparencies etc. It can cause more work, frustration and end up costing you more in both money and time. I’m speaking from experience.
 
 # EXAMPLES
-Some examples of my cyanotypes after refining my process
+Some [examples](https://imgur.com/a/NVG5mCV) of my cyanotypes after refining my process
 
 ![](../assets/img/cyanotypes/examples.png)
 
-https://imgur.com/a/NVG5mCV
 
 # CHEMICALS
 ## Mixing
