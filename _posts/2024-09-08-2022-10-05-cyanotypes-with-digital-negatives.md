@@ -227,56 +227,37 @@ First wash
 Place in a tray with normal tap water + 10ml of vinegar for 5 mins. Empty the water and fill again, immediately add a squirt of Hydrogen Peroxide force oxidation. Allow to oxidize for 1 min
 Second wash
 If you wash with normal tap water which is basic (like mine) this step will continue to bleach the highlights and mid tones. My current consists of running it under tap water for 30 seconds. Be consistent!
+
 This is an excellent demonstration of the bleaching effect of alkine washing water 
-BLEACHING/TONING
-Bleaching
+
+# BLEACHING/TONING
+
+## Bleaching
 It's often best to over expose if you plan on bleaching. I use washing soda but make sure you don't use too much as it reacts fast.
 
 Without bleaching, you can get blacks in your shadows. With bleaching, you get browns in your shadows.
-Coffee
+
+## Coffee
 Temperature. The hotter the coffee is more it reacts especially staining the highlights. Its better to have a lower reactive coffee at room temperature.
 
+| Coffee | Temp | Time | Notes |
+|-------|--------|---------|---------|
+| Black brewed | Room | 5 mins | Less staining than tea, Still a split tone at this stage. No Bleach. |
+| Black brewed | Room | 10 mins | A slight bleach first then 10 mins. Drys with a slight Blue but mainly neutral tone. |
+| Black brewed | Room | 30 mins | Very deep brown, major highlight staining, suits some prints |
 
-Coffee
-Temp
-Time
-Notes
-Black brewed
-Room
-5 mins
-Less staining than tea, Still a split tone at this stage. No Bleach.
-Black brewed
-Room
-10 mins
-A slight bleach first then 10 mins. Drys with a slight Blue but mainly neutral tone.
-Black brewed
-Room
-30 mins
-Very deep brown, major highlight staining, suits some prints
+## Tea
 
-
-
-Tea
-
-
-Tea
-Temp
-Time
-Notes
-Lipton black - 4 bags  to 1l
-Room temp
-5 mins
-Stains the highlights a bit.Split tone
-Green tea
-Warm
-30 mins
-1.2L of water and 8 bags, a slight bleach (15-30 seconds) before toning
+| Tea | Temp | Time | Notes |
+|-------|--------|---------|---------|
+| Lipton black - 4 bags  to 1l | Room temp | 5 mins | Stains the highlights a bit.Split tone |
+| Green tea | Warm | 30 mins | 1.2L of water and 8 bags, a slight bleach (15-30 seconds) before toning |
 
 
 Wine Makers Tannin
 https://www.photrio.com/forum/threads/paper-for-cyanotypes-an-incomplete-survey.175743/page-2#post-2381750
 
-Tannic Acid
+## Tannic Acid
 
 
 
