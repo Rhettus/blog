@@ -283,11 +283,13 @@ Tannic Acid
 # TROUBLESHOOTING
 ## Midtones
 This is a collation of the points mentioned above which affect your tonal range
-Ph of water used to develop. Add acid during development. This will extend the midtones and highlights tonal range
-Paper selection. 100% cotton is best as it is pH neutral
-Relative humidity when coating. Around 60% or more
-The exposure time. The printer and inks used for a digital negative. Epson inks block UV light better.
-The printer settings. Increase the print density and increase exposure to get more separation between tones.
+
+1. Ph of water used to develop. Add acid during development. This will extend the midtones and highlights tonal range
+2. Paper selection. 100% cotton is best as it is pH neutral
+3. Relative humidity when coating. Around 60% or more
+4. The exposure time. The printer and inks used for a digital negative. Epson inks block UV light better.
+5. The printer settings. Increase the print density and increase exposure to get more separation between tones.
+
 Notes on midtones. “Ive found too if the negative doesn't have enough uv absorption the mid to white tones cant be calibrated well as theres not enough numerical separation between each step in the scale. I punched up the ink density on mine and got way better tones but then started having banding problems from the substrate not holding the ink as well.”
 
 ## Highlights
@@ -297,19 +299,19 @@ When printing your digital negative, if the highlights have tones (not a bright 
 This is generally controlled by the exposure time. If you have too many shadows after corrections, then try decreasing time.
 
 # REFERENCES
-- Prussian Blues - Experimenting with papers, UV enlargers, Vinegar developing etc. This channel is full of useful information.
-- Lauren Fiebert - Start to finish Cyanotype process including bleaching and toning in a single session
-- Tom Nelson - Fixxon vs Pictorico
-- Tom Nelson - Creating a Digital Negative
-- Charthorb - Automated curve generator
-- How to set up digital negative Gradient maps
-- Paper comparisons - Christina Z. Anderson 
-- Another paper list
-- Peter Mrhar - Cyanotype process including paper comparison
-- Bostick & Sullivan Digital Negatives - https://www.photo-historica.com/digitalnegatives
-- Cyanomicon - Free e-book https://www.mikeware.co.uk/downloads/Cyanomicon.pdf
-- Sulfamic-acid-for-paper-acidification - https://www.photrio.com/forum/threads/sulfamic-acid-for-paper-acidification.102747/
-- UV Exposure box build
-- Mat Hughes - Excellent cyanotype - examples
+- [Prussian Blues](https://www.youtube.com/user/matthewbary1) - Experimenting with papers, UV enlargers, Vinegar developing etc. This channel is full of useful information.
+- [https://www.youtube.com/watch?v=y00DU5OOqaQ](Lauren Fiebert) - Start to finish Cyanotype process including bleaching and toning in a single session
+- [Tom Nelson](https://www.youtube.com/watch?v=7fzAOhTls_o) - Fixxon vs Pictorico
+- Tom Nelson - [Creating a Digital Negative](https://www.youtube.com/watch?v=nPoZt4-yzy4)
+- [Charthorb](https://www.botzilla.com/gearhead/2006/10/24/ChartThrob-A-Tool-for-Printing-Digital-Negatives.html) - Automated curve generator
+- How to set up digital negative [Gradient maps](https://www.youtube.com/watch?v=xdVuAHLvXOg&t=838s)
+- [Paper comparisons](https://www.alternativephotography.com/papers-for-traditional-classic-cyanotype-process-1613-research-for-free/) - Christina Z. Anderson 
+- [Another paper](https://www.photrio.com/forum/threads/paper-for-cyanotypes-an-incomplete-survey.175743/) list
+- [Peter Mrhar](http://www.photomrhar.com/portfolio/cyanotype/) - Cyanotype process including paper comparison
+- [Bostick & Sullivan Digital Negatives](https://www.photo-historica.com/digitalnegatives) 
+- [Cyanomicon](https://www.mikeware.co.uk/downloads/Cyanomicon.pdf) - Free e-book 
+- [Sulfamic-acid-for-paper-acidification](http://sulfamic-acid-for-paper-acidification/) 
+- [UV Exposure box build](https://www.youtube.com/watch?v=rBBAUWRy0Mc)
+- [Mat Hughes](https://viewcameraaustralia.org/2022/10/01/folio-mat-hughes/) - Excellent cyanotype examples
 
 
