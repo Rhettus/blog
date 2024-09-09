@@ -2,7 +2,7 @@
 title: Cyanotypes with Digital Negatives
 description: ""
 date: 2022-10-05T22:56:25.270Z
-img: canotypes/cyanotypes_cover.jpg
+img: cyanotypes/cyanotypes_cover.jpg
 preview: ""
 tags: []
 categories: []

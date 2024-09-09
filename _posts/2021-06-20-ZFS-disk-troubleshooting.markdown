@@ -3,7 +3,7 @@ layout: post
 title: "ZFS Disk performance troubleshooting under FreeBSD"
 date: 2021-06-20 19:32:20 +0300
 description: # Add post description (optional)
-img: # Add image post (optional)
+img: zfs/zfs_cover.png # Add image post (optional)
 categories: Tech
 ---
 
