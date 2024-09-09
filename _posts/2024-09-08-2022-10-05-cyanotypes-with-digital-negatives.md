@@ -173,17 +173,19 @@ When talking about the material to place on top of your digital negatives there 
 
 # DEVELOPING
 When developing, prepare your developer before hand, be that water or a dilution of vinegar and place in a container you can pour over the cyanotype. You want even development which requires the whole print to be covered within the same second or two. Failing to do this can result in lines on the final product.
-Tap Water 
+
+## Tap Water 
+
 💡If you have limited tones in the midtones and highlight, you can use vinegar in development and wash to extend them.
+
 The pH level of your water has a huge impact on your midtones. My midtones were washed out and showed fibers but this could be due to a number of other variables as well. My tap water here reports an average Ph of 8.1. Prussian Blue has an in depth video on this.
 
 
 
 
-Water
-Notes
-1000ml
-12min exposure time. This naturally produces a very contrasty print which is hard to pull back
+| Water | Notes |
+|-------|--------|
+| 1000ml | 12min exposure time. This naturally produces a very contrasty print which is hard to pull back | 
 
 
 
@@ -192,43 +194,30 @@ Vinegar greatly changes the curve of the print. Cyanotypes prefer to be on the a
 You can dilute the vinegar with tap water, this way it still remains on the acidic side.
 Observations. Unless otherwise stated testing was performed with Canson XL watercolor paper. 
 
-Vinegar
-Water
-Notes
-1
-0
-3 mins. Lots of tone and drastically reduces the exposure times. Stains the highlights blue
-1
-3
-✅25% vinegar, this is what I settled on with a 13 minute exposure on Bristol paper.
-1
-8
-10 mins seems to be about right. Still is little light, doesnt hit the deep blue. Note this could be inaccurate 
-15ml (1 cap)
-800ml
-11min exposure. Takes Hydrogen Peroxide but washes would the highlights. Nice and deep blues.
-30ml (2 caps)
-800ml
-20 mins 15 mins exposure. Good compromise between tonal range and deep blues. Can be used with hydrogen peroxide.
-50ml
-800ml
-15 mins exposure.Can be used with hydrogen peroxide. Blue not as deep
-100ml
-800ml
-Tested on bristol paper for 15 mins. No highlight staining. Can be used with Hydrogen peroxide
-
+| Water | Water | Notes |
+|-------|--------|--------|
+| 1 | 0 | 3 mins. Lots of tone and drastically reduces the exposure times. Stains the highlights blue |
+| 1 | 3 | ✅25% vinegar, this is what I settled on with a 13 minute exposure on Bristol paper. |
+| 1 | 8 | 10 mins seems to be about right. Still is little light, doesnt hit the deep blue. Note this could be inaccurate |
+| 15ml (1 cap) | 800ml | 11min exposure. Takes Hydrogen Peroxide but washes would the highlights. Nice and deep blues. |
+| 30ml (2 caps) | 800ml | 20 mins 15 mins exposure. Good compromise between tonal range and deep blues. Can be used with hydrogen peroxide. |
+| 50ml | 800ml | 15 mins exposure.Can be used with hydrogen peroxide. Blue not as deep |
+| 100ml | 800ml | Tested on bristol paper for 15 mins. No highlight staining. Can be used with Hydrogen peroxide |
 
 Develop for 5 mins to protect from bleaching during wash.
 
-Distilled Water
+## Distilled Water
 This will be pH neutral. I have yet to experiment with this. This should eliminate any bleaching during the wash.
-WASHING
-First wash
+
+# WASHING
+
+## First wash
 Place in a tray with normal tap water + 10ml of vinegar for 5 mins. Empty the water and fill again, immediately add a squirt of Hydrogen Peroxide force oxidation. Allow to oxidize for 1 min
-Second wash
+
+## Second wash
 If you wash with normal tap water which is basic (like mine) this step will continue to bleach the highlights and mid tones. My current consists of running it under tap water for 30 seconds. Be consistent!
 
-This is an excellent demonstration of the bleaching effect of alkine washing water 
+This is an [excellent demonstration](https://www.photrio.com/forum/threads/the-effect-of-acid-in-the-washing-of-traditional-cyanotypes.177366/) of the bleaching effect of alkine washing water 
 
 # BLEACHING/TONING
 
