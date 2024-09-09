@@ -39,7 +39,7 @@ The best result for me is to develop with  30ml vinegar to 800ml water with this
 
 ## Canson XL recycled bristol
 ✅This paper is brighter and feels a bit lighter. It holds deep blues and is my current preferred choice between the 2 Cansons. Be sure to use the rougher side (up side) for deeper blues.
-I get it from Michaels and order a larger size and cut it down to save on cost.
+I get it from [Michaels](https://www.michaels.com/canson-xl-recycled-bristol-pad/M10157082.html?dwvar_M10157082_size=14%22%20x%2017%22&dwvar_M10157082_color=White) and order a larger size and cut it down to save on cost.
 
 💡Its possible to acidify papers before use. Links down in the reference area. I am currently not doing this
 
@@ -54,78 +54,92 @@ The relative humidity of the environment you are coating the paper in should be 
 Probably the easiest to start off with, very even coating.  Mix 2 + 2ml for a standard 9x12 sheet of paper. Make sure this all soaks in else you will not get the deeper blues. Work it for about 2-3 mins.
 
 ## Hake
-These seem good if you want fancy brush strokes on the page edges
+[These](https://www.amazon.com/dp/B08TTJ2BYT?psc=1&ref=ppx_yo2ov_dt_b_product_details) seem good if you want fancy brush strokes on the page edges
 
 ## Standard Home Depot
 Much harder to control and uses/soaks up more sensitizer. This is my last choice
 
 # DIGITAL NEGATIVES
 There is a lot to learn with the digital negative process. I have mostly learned from The Easy Digital Negatives book, but there are other methods listed like Charthrob and Tom Nelsons links. After going through all processes I would now go to Tom Nelsons process. 
-Update, my current method is more based on Tom Nelsons method using Charthrob. Before starting with charthrob I add a levels adjustments and set gamma/mid point to 2.2 on the positive image. This reduces the severity of the corrections a LOT.
+
+**Update, my current method is more based on Tom Nelsons method using Charthrob**. Before starting with charthrob I add a levels adjustments and set gamma/mid point to 2.2 on the positive image. This reduces the severity of the corrections a LOT.
 
 Tip: If you have tried everything and still cant get a good print, try to eliminate the digital negative as a culprit of issues, use a standard step wedge or a real film picture. 
 
 # Printer
-There is a lot of talk about Canon printers (Pixma Pro 100 which I own) not being up to the task. This user has made it work successfully. And based off that work I have made it work for my workflow too.
+There is a lot of talk about Canon printers (Pixma Pro 100 which I own) not being up to the task. [This user](https://www.photrio.com/forum/threads/digital-negatives-on-canon-pro-100.152681/) has made it work successfully. And based off that work I have made it work for my workflow too.
+
 “At first I was having trouble getting enough UV density with the black and white mode but printing as a color image, with intensity pushed all the way up and with Matte paper selected, I'm getting pretty good density.”
+
 Alternatively there are inks available for the pixma pro 100 for screen printing. https://solutionsforscreenprinters.com/pixma-pro-100/
+
 For best results an Epson printer using the K3 or Ultrachrome inks is the standard for Digital Negatives. When it comes time to replace my printer, I will be looking for an Epson. 
+
 🚨Canon inks are highly recommended/required if using a Pixma Pro 100
 
 # Inks
 ## Precision Color
-I tested a Canon Pixma Pro 100 printer with 3rd party Precision color inks. I can get a maximum density of 1.0 under a densitometer with this ink. This of course does not measure the UV blocking ability of the ink but it gives a general idea. 
+I tested a Canon Pixma Pro 100 printer with 3rd party [Precision color inks](https://precisioncolors.com/). I can get a maximum density of 1.0 under a densitometer with this ink. This of course does not measure the UV blocking ability of the ink but it gives a general idea. 
+
 🚨This ink is not suitable for digital negatives.
 
 ## Canon
 Canon Ink measured a density of 1.62 under densitometer. This ink gives a far greater tonal range. 
+
 ✅It is the only ink which is up to the task for this printer.
 
 # Transparency
-I’m using Fixxons Waterproof Inkjet transparencies after watching Tom Nelsons comparison video. This is a fraction of the price and holds a lot of ink. I measured the density of this vs a generic non milky i.e. clear brand it it held about 10% more density using the precision color inks. I have not tested with Canon inks.
+I’m using [Fixxons Waterproof Inkjet](https://www.amazon.com/dp/B07ZHPC9LH?psc=1&ref=ppx_yo2ov_dt_b_product_details) transparencies after watching Tom Nelsons comparison [video](https://www.youtube.com/watch?v=7fzAOhTls_o). This is a fraction of the price and holds a lot of ink. I measured the density of this vs a generic non milky i.e. clear brand it it held about 10% more density using the precision color inks. I have not tested with Canon inks.
  
 # Printer Settings
 ## Media Selection
 In the print driver settings, ensure to use “Matte Photo Paper” as the Media type. Print quality is set to high
 
+![](../assets/img/cyanotypes/print_settings.png)
 
 ## Density
 Under the “main” tab ensure set the Color/Intensity to Manual and make sure the intensity is all the way up. You will need to find the right density, that is the value it takes not to completely block up the highlights on your step wedge once printed.
 
+![](../assets/img/cyanotypes/density.png)
 
 🚨Do not print as a B&W photo. Make sure you print using RGB (including the mode of the  photo within photoshop)
 Once printed allow the negative to dry for about 1 hour.
 
 # Optimum UV blocker
-To find the optimum blocker color follow this process. Print the chart with the standard print time i.e. the time is takes to reach maximum darkness. Once the process has finished you will get multiple corrections you can apply to photoshop. It is recommended to use the LUT/color lookup process but I fell back to curves. LUTs seem hard to edit, and color gradients do my head in.
+To find the optimum blocker color follow [this](https://www.youtube.com/watch?v=0g600pBatJg) process. Print the chart with the standard print time i.e. the time is takes to reach maximum darkness. Once the process has finished you will get multiple corrections you can apply to photoshop. It is recommended to use the LUT/color lookup process but I fell back to curves. LUTs seem hard to edit, and color gradients do my head in.
 
-http://www.easydigitalnegatives.com/color-blocker/
+[http://www.easydigitalnegatives.com/color-blocker/](http://www.easydigitalnegatives.com/color-blocker/)
 
 In my sample using 2 caps of vinegar in water exposed for 11 mins, the black gradient gives the longest tonal range and still blocks the highlights.
-Gamma
+
+## Gamma
+
 🚨Setting gamma provides a better starting point and reduces the steepness of the curve.
+
 “The gamma needs to be increased to a value in the region of 1.8 to 2.2 in the positive image, which – be warned! – will then appear horribly overexposed in the digital sense, or ‘blown out’ on-screen. This adjustment usually suffices to re-map the relative distribution of levels from most positive digital image files to provide, on inversion, a negative with sufficient density to be printable by analogue processes.”
+
+![](../assets/img/cyanotypes/gamma.png)
 
 # LUTS/Gradient Maps/Curves
 There are  few different way to apply adjustments to a digital negative. I am currently using Charthrob after applying the 2.2 gamma level to the positive image. After printing the stepwedge, then scanning it back in and processing it. I ended up with this curve
 
-The following section is for archival purposes when I tried the Easy Digital Negative method, it is not my current workflow.
-Peter Mrhar’s process has changed over the years going from curves to gradient maps to LUTS’s.This is a manual method which helps your understanding of the process gradient map process
-After putting my 256 color step wedge through ECN I got the following linerization curve. This is a nice correction and can probably be smoothed out a little. There is a constant move up. When I used the precision color inks, the curve was all over the place and really could not be corrected.
+![](../assets/img/cyanotypes/curves.png)
 
-This is the gradient map applied. The direction (black to white) indicates this should be applied to a positive image (before inversion)
 
-Printing
+## Printing
+
 Cyanotype photoshop process - THE ORDER IS IMPORTANT. I highly suggest making a photoshop action once your process is down to eliminate human error.
-- Import photo
-- Edit as desired
-- Desaturate
-- Apply the color gradient map/LUT/curve/gamma etc (normal blend). Do this while its still a positive.
-- Flatten the image
-- Invert the image
-- Flip horizontal
-- Print using your saved printer settings preset
 
+1. Import photo
+2. Edit as desired
+3. Desaturate
+4. Apply the color gradient map/LUT/curve/gamma etc (normal blend). Do this while its still a positive.
+5. Flatten the image
+6. Invert the image
+7. Flip horizontal
+8. Print using your saved printer settings preset
+
+![](../assets/img/cyanotypes/ps_action.png)
 
 # EXPOSURE
 
@@ -135,17 +149,23 @@ I like to break this down into 2 steps. First run is with large time increments 
 ## UV Exposure box
 ### LED selection
 According to all research at the time of writing the SMD5050 Led (in strips) are the only LED’s powerful enough to expose alternative prints. They are on the upper side of the UV spectrum at 395nm. 
+
 People are now using 60W-100W+ LED 360nm odd floodlights which develop the prints much faster (1 min vs 13). The issue I have with these is the light is not contained in a box. I try to limit the exposure of UV light to my eyes as much as possible
 
 ### UV Lightbox Build
-I follow the instructions from this Youtube video. This allows full power and half power. Maximum print area of my box is 13x19 which is the max my printer can create digital negatives
+I follow the instructions from [this](https://www.youtube.com/watch?v=rBBAUWRy0Mc) Youtube video. This allows full power and half power. Maximum print area of my box is 13x19 which is the max my printer can create digital negatives
+
+![](../assets/img/cyanotypes/uv_box.png)
 
 I added a timer on with Home Assistant. It turns on for the selected time, turns off and sends a notification to my phone. You could use a darkroom timer for the same functionality.
 
+![](../assets/img/cyanotypes/ha_timer.png)
 
 # Glass vs Acrylic
 When talking about the material to place on top of your digital negatives there are a couple of choices. Glass plate blocks a lot of UV light but has the advantage of being heavy which helps flatten the paper and negative. Acrylic (not plexiglass) will let the upper end of UV light through and is only half the weight of glass. I currently use a 13x19 piece of 3/8th cut from Tap Plastics mainly because it was easy to source and cut.
+
 🗒️The weight of the material doesn’t matter if you clamp glass/acrylic to the base with the paper and digital negative sandwiched in between.
+
 🚨If you get blurry parts on your prints this could be due to not clamping, or the surfaces not being 100% flat. I used an old bit of plywood for the base, and one side was slightly concave which produced parts of the images to be blurry. I flipped the base so it became convex and that solved the issue.
 
 
