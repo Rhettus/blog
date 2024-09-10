@@ -14,7 +14,7 @@ type: default
 
 I have had the OM-1 for over 6 months and feel like I am only just coming to grips with it. Generally, I use a base ISO of 1600, which I find most software can handle without issues when removing noise. This allows me to keep the shutter speed up in most situations. If you just want to blindly apply my settings, you can skip to the end and download my settings file, which can be applied using OM Workstation.
 
-While the OM-1 has the excellent SH2 drive mode, which can do blackout-free 50fps RAW files, there are some downsides to using it. Firstly, it affects the EVF preview; generally, the scene looks darker in the EVF (it doesn't change with exposure changes). For this reason, it's important to read the histogram for exposure when using it. The other downside is you cannot drop the shutter below 1/640th of a second. This is no problem for birds in flight, but it is a limitation when shooting perched birds in dark forests. Remember, the OM-1 has excellent IBIS, which I use down to 1/40th of a second safely; this really helps to keep ISO down.
+While the OM-1 has the excellent SH2 drive mode, which can do blackout-free 50fps RAW files there is a downside to using it, that is you cannot drop the shutter below 1/640th at 60fps or 1/320th at 25fps of a second. The OM-1 mk 2 allows a stop slower on these shutter speeds, which brings the 25fps mode down to a usable 1/160th. This is no problem for birds in flight, but it is a limitation when shooting perched birds in dark forests. Remember, the OM-1 has excellent IBIS, which I use down to 1/40th of a second safely; this really helps to keep ISO down.
 
 These settings suit my style of getting the most out of the OM-1. I expose to the right of the histogram, which produces a very bright image. However, once pulled down in post, it shows minimal noise. I'm always looking at the histogram in the EVF; learn to read it.
 
@@ -36,6 +36,8 @@ These are settings I keep the same through all the Custom modes or globally.
 ## Miscellaneous Settings
 No one needs the AF light on the front of the camera for distant birds; it's just a distraction.
 ![](../assets/img/OM-1/AF%20Illuminator.jpg)
+
+Turn the audio off on focus confirmation.
 
 ## Picture Settings
 I always shoot RAW only. Ensure this is set; the default is a medium JPEG. Here is a general overview of the Super Control panel; you can access this by pressing `ok`. This is also how you can quickly change settings not controlled by buttons or dials.
