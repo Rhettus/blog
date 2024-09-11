@@ -123,6 +123,7 @@ I use this mode based on the `shutter priority` mode to shoot birds about to tak
 - Subject detection - Birds
 - Autofocus mode - C-AF + MF
 - C-AF Sensitivity - +2
+- Sequential Shooting Settings - Procap SH2 - 50 Pre shutter frames
 - Auto ISO (up to 12800)
 - Drive mode - Procap SH2 - 50fps
 - Shutter speed - Start at 1/2500th
