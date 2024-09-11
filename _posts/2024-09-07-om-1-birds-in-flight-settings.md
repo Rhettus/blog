@@ -117,11 +117,12 @@ I use this mode based on the `aperture priority` mode when shooting birds in fli
 - Meter mode - ESP
 
 ## C3 - Pro-Capture
-I use this mode based on the `shutter priority` mode to shoot birds about to take off or land on a perch. It allows independent control of the shutter (front dial) and allows exposure compensation to be used with the rear dial.
+I use this mode based on the `shutter priority` mode to shoot birds about to take off or land on a perch. It allows independent control of the shutter (front dial) and allows exposure compensation to be used with the rear dial. C-AF Sensitivity is +2 is order to try and keep up with fast moving birds.
 
 - Exposure mode - Shutter priority
 - Subject detection - Birds
 - Autofocus mode - C-AF + MF
+- C-AF Sensitivity - +2
 - Auto ISO (up to 12800)
 - Drive mode - Procap SH2 - 50fps
 - Shutter speed - Start at 1/2500th
