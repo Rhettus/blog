@@ -11,7 +11,7 @@ categories: []
 type: default
 ---
 
-In order for me to do auto Z leveling so I can actually get consistent first layers, I needed to replace my CRTouch probe with a klicky probe, or any probe which can push down another probe. There are serveral advantages in doing this anyway including a lighter toolhead, more travel room and last but not least getting rid of that rattle box.
+In order for me to do auto Z leveling so I can actually get consistent first layers, I needed to replace my CRTouch probe with a klicky probe, or any probe which can push down another probe to caluculate the z-offset each time. There are serveral advantages in doing this anyway - including a lighter toolhead, more travel room and last but not least getting rid of that rattle box.
 
 I travelled the internet looking for a complete guide on installing a klicky probe on my EVA 2.4 toolhead and could not find one, only parts, and not specific to my printer. So this post will track my progress on installing a klicky probe to my Mercury One (Ender 5 Pro with Octopus 1.1 MCU)
 
@@ -88,3 +88,6 @@ You should only have to adjust the dock location, bed size, and tool head park l
 [Octocpus 1.1 pinouts](https://github.com/GadgetAngel/BTT_Octopus_Color_PIN_Diagram/blob/main/BTT_Octopus_V1.1_Color_PIN_Diagram/BIGTREETECH-Octopus-V1.1-color-PIN.pdf)
 [Klicky Github](https://github.com/jlas1/Klicky-Probe/tree/main/Printers/ZeroG/Mercury_One)
 [ModBotArmy Video](https://www.youtube.com/live/UJE6YU_ReE0?si=r3STdD-Wx29HAjpB) - Warning 2.5 hours
+https://www.printables.com/model/637878-ender-5-auto-z-calibrate-pack
+
+Tap - PF6
