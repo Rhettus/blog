@@ -1478,4 +1478,12 @@ a.newer-posts:hover {
   .post .post-content .post-title a {
     font-size: 21px;
   }
+  .wip-banner {
+    background-color: #ffeb3b;
+    color: #000;
+    padding: 10px;
+    border-left: 5px solid #fbc02d;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
 }

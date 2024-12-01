@@ -3,6 +3,11 @@ layout: main
 ---
 <article class="article-page">
   <div class="page-content">
+    {% if page.wip %}
+    <div class="wip-banner">
+      ⚠️ This post is a Work in Progress and may be updated frequently. 
+    </div>
+    {% endif %}
     {% if page.img %}
     <div class="page-cover-image">
       <figure>

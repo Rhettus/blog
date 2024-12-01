@@ -4,7 +4,9 @@ title: "Home Server Rack Setup: Compact, Low-Powered, and Performant"
 date: 2024-11-30
 categories: home-lab
 tags: [server, home-lab, rack, low-power, performant, openhpc, nas, raspberry-pi, zabbix, ansible]
+wip: true
 ---
+
 
 ## Overview
 
