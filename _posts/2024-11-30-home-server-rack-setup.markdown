@@ -3,7 +3,7 @@ layout: post
 title: "Home Server Rack Setup: Compact, Low-Powered, and Performant"
 date: 2024-11-30
 categories: home-lab
-tags: [server, home-lab, rack, low-power, performant, openhpc, nas, raspberry-pi, zabbix, ansible]
+tags: [server, home-lab, rack, low-power, openhpc, nas, raspberry-pi, zabbix, ansible]
 wip: true
 ---
 
@@ -73,6 +73,7 @@ Here’s the **software stack** that will run on this hardware setup:
 
 ### **10. Pi-hole**
 - **Pi-hole** will be installed to provide **network-wide ad-blocking** and improve network security. It will block unwanted content at the DNS level, reducing ads, tracking, and malicious websites across all devices connected to the network.
+
 ---
 
 ## Final Thoughts
