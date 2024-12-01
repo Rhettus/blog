@@ -3,6 +3,7 @@ layout: post
 title: "Calibrating Z-Offset with AutoZ (Calibrate_Z)"
 date: 2024-11-29
 categories: 3D Printing Klipper Calibration
+wip: true
 ---
 
 The video *[Never adjust your 3D Printer Z Offset again with Klipper and a plugin](https://youtu.be/oQYHFecsTto?si=PoagrTXBOvhGXVYQ)* is a great resource for Z-offset calibration, but the macros for `auto_z` have changed since it was made. Therefore, these notes reflect the current process and configuration.
