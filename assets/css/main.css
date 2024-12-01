@@ -1478,23 +1478,23 @@ a.newer-posts:hover {
   .post .post-content .post-title a {
     font-size: 21px;
   }
-  .wip-banner {
-    background-color: #fff8dc; /* Light yellow background */
-    color: #8a6d3b; /* Darker text for better contrast */
-    padding: 15px;
-    border: 2px solid #f0e68c; /* Border color matching the theme */
-    border-radius: 8px; /* Rounded corners */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-    margin-bottom: 20px;
-    font-weight: bold;
-    font-size: 1.1rem; /* Slightly larger text */
-    display: flex;
-    align-items: center;
-    gap: 10px;
-  }    
+}
+.wip-banner {
+  background-color: #fff8dc; /* Light yellow background */
+  color: #8a6d3b; /* Darker text for better contrast */
+  padding: 15px;
+  border: 2px solid #f0e68c; /* Border color matching the theme */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 1.1rem; /* Slightly larger text */
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}    
 
-  .wip-banner::before {
-    content: "⚠️"; /* Warning emoji */
-    font-size: 1.5rem;
-  }
+.wip-banner::before {
+  content: "⚠️"; /* Warning emoji */
+  font-size: 1.5rem;
 }
