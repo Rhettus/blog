@@ -15,7 +15,7 @@ In this post, I’m jotting down my ideas for my home server rack setup that’s
 ## Physical Rack Setup
 
 ### **Rack Dimensions & Structure**
-- **8U rack 10"**: Custom 3D-printed panels with a **white color scheme** for improved visibility and a clean aesthetic.
+- **8U rack 8"**: Custom 3D-printed panels with a **white color scheme** for improved visibility and a clean aesthetic.
 - **3D-printed custom panels** for each **U**, made from a smooth matte white finish to enhance legibility and contrast with labels and displays.
 
 ### **Components & Layout**
@@ -61,8 +61,8 @@ Here’s the **software stack** that will run on this hardware setup:
 ### **5. Open HPC Cluster**
 - A **Raspberry Pi 4 cluster** running **OpenHPC** will handle **distributed computing** tasks. The cluster will include a **control unit** and **3 worker nodes**, connected via a **PoE-powered switch** for efficient power usage.
 
-### **6. Scrypted**
-- **Scrypted** will be used for **video surveillance** and **camera integrations**, particularly useful in monitoring my home, especially with devices like security cameras or smart doorbells.
+### **6. Frigate**
+- **Frigate** will be used for **AI-based video surveillance** with local object detection. This will ensure privacy and high efficiency while monitoring security cameras integrated into the system.
 
 ### **7. Nextcloud**
 - **Nextcloud** will act as my **cloud storage solution**, allowing me to sync files, photos, and other data across devices and provide secure file sharing to external users.
@@ -73,12 +73,16 @@ Here’s the **software stack** that will run on this hardware setup:
 ### **9. Ansible**
 - **Ansible** will be used for **automated configuration management** and **deployment**. It will simplify setting up new nodes in my **OpenHPC cluster** and help automate other administrative tasks across the server and network infrastructure.
 
-### **10. Pi-hole**
-- **Pi-hole** will be installed to provide **network-wide ad-blocking** and improve network security. It will block unwanted content at the DNS level, reducing ads, tracking, and malicious websites across all devices connected to the network.
+### **10. AdGuard Home**
+- **AdGuard Home** will provide **network-wide ad-blocking** and improve network security. It will block unwanted content at the DNS level, reducing ads, tracking, and malicious websites across all devices connected to the network.
+
+### **11. Portainer**
+- **Portainer** will serve as a **container management platform**, providing an easy-to-use interface for managing Docker containers. This will streamline the deployment, monitoring, and management of all containerized applications in the software stack.
 
 ---
 
 ## Physical Layout of 10" Rack
+
 | U     | Equipment                  |
 |-------|----------------------------|
 | **1U** | Firewall                  |
