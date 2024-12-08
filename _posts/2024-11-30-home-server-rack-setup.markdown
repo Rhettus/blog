@@ -78,6 +78,20 @@ Here’s the **software stack** that will run on this hardware setup:
 
 ---
 
+## Physical Layout of 10" Rack
+| U     | Equipment                  |
+|-------|----------------------------|
+| **1U** | Firewall                  |
+| **2U** | Switch (Core) (8 Port PoE)|
+| **3U** | Patch Panel               |
+| **4U** | Switch (2.5Gb PoE)        |
+| **5U** | Pi (2U Unit)              |
+| **6U** |                           |
+| **7U** | NAS                       |
+| **8U** | Drawer                    |
+
+---
+
 ## Final Thoughts
 
 This setup is designed to meet the needs of my home server environment while being mindful of both **space** and **power**. By using **low-power devices**, **PoE** for easy cabling, and efficient components like the **Raspberry Pi** and **ZFS**, this home lab offers a **performant**, **compact**, and **power-efficient** solution for all my server needs.
