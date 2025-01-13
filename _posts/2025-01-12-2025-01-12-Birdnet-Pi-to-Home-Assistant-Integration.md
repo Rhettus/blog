@@ -25,7 +25,7 @@ tags:
 I want to be able to report my bird detections to Home Assistant. With this I can create automation, cards, grafana graphs, custom notifications etc. A lot of this is going to be based off Phil Prices work, I just didnt have the experience to follow those instructions and get it working. This blog attempts to add some clarity to that blog post.
 
 ## Understanding
-First I had to have some understand of MQTT.  The workflow is comprised of a MQTT Broker, and subscriber model. Subscribers sign up for specific "topics" and get the notification relayed to them via the broker whenever a device publishes to that topic. Home Assistant sensors subscribe to topics for their data 
+First I had to have some understanding of MQTT.  The workflow is comprised of a MQTT Broker, and subscriber model. Subscribers sign up for specific "topics" and get the notification relayed to them via the broker whenever a device publishes to that topic. Home Assistant sensors subscribe to topics for their data 
 
 ![image](/assets/img/2025-01-12-Birdnet-Pi-to-Home-Assistant-Integration/MQTT.png)
 
