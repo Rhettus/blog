@@ -99,12 +99,13 @@ You can activate this
 
 `birdnet:~/BirdNET-Pi/birdnet$ source bin/activate`
 
-| You can test an apprise message like so. Just change out the variables to your Home Assistant setup |
-| --------------------------------------------------------------------------------------------------- |
-| ```apprise -vvv -b 'test' "mqtt://username:password@192.168.0.100:1883/birdnet/sightings"```        |
+ You can test an apprise message like so. Just change out the variables to your Home Assistant setup
+```apprise -vvv -b 'test' "mqtt://username:password@192.168.0.100:1883/birdnet/sightings"``` 
 Check the version of apprise (less than 2.0)
+```
 pip3 list
-```Package                   Version
+
+Package                   Version
 ------------------------- ------------
 altair                    5.4.1
 apprise                   1.9.0
