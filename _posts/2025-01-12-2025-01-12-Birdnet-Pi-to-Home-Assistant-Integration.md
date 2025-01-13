@@ -26,7 +26,7 @@ I want to be able to report my bird detections to Home Assistant. With this I ca
 ## Understanding
 First I had to have some understand of MQTT.  The workflow is comprised of a MQTT Broker, and subscriber model. Subscribers sign up for specific "topics" and get the notification relayed to them via the broker whenever a device publishes to that topic. Home Assistant sensors subscribe to topics for their data 
 
-MQTT
+![image](/assets\img/2025-01-12-o2-temp2025-01-12-Birdnet-Pi-to-Home-Assistant-Integration/MQTT.png)
 
 Format of the notification in Birdnet-Pi
 ```
@@ -164,6 +164,7 @@ To get the nice representation on a HA dashboard we need to setup a card "Mushro
 My card content ended up being
 
 ```
+{% raw %}
   - type: sections
     title: Birdnet
     cards: []
@@ -182,6 +183,7 @@ My card content ended up being
             secondary: '{{states.sensor.birdnet_sightings.attributes.Scientific_Name}}'
             entity: sensor.birdnet_sightings
             icon: ''
+{% endraw %}
 ```
 
 Just a note, I used the developer tools to see the values of the attributes. I got these wrong a number of times and this helped a lot.
