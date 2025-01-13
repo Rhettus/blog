@@ -86,22 +86,25 @@ And the "Notification Title" must be removed as this breaks the json
 Check in MQTT-Explorer that valid json payloads are being sent if you click "Test". You really want valid json payloads as this makes getting values out using the templates much much easier.
 
 ![image](/assets\img/2025-01-12-o2-temp2025-01-12-Birdnet-Pi-to-Home-Assistant-Integration/Pasted-image-20250112114348.png)
+
 This will give us all the data we need to represent in future.
+
 ### Troubleshooting
 
 I went down the rabbit hole a few times because my lack of understanding lead me to believe there was an environmental issue. This was not the case, but I'm leaving my trouble shooting steps in here as it contains some useful information about the BirdNet python virtualenv
 
-The On the Birdnet machine python virtualenv seems to be at 
-
-```~/BirdNET-Pi/birdnet/bin```
+The On the Birdnet machine python virtualenv seems to be at  `~/BirdNET-Pi/birdnet/bin`
 
 You can activate this
 
-`birdnet:~/BirdNET-Pi/birdnet$ source bin/activate`
+``` birdnet:~/BirdNET-Pi/birdnet$ source bin/activate ```
 
  You can test an apprise message like so. Just change out the variables to your Home Assistant setup
+
 ```apprise -vvv -b 'test' "mqtt://username:password@192.168.0.100:1883/birdnet/sightings"``` 
+
 Check the version of apprise (less than 2.0)
+
 ```
 pip3 list
 
