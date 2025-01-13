@@ -3,6 +3,7 @@ layout: post
 title: "Integrating BirdNET-Pi with Home Assistant Using MQTT"
 date: 2025-01-12 12:00:00 +0000
 categories: home-automation mqtt birdnet-pi
+img: 2025-01-12-Birdnet-Pi-to-Home-Assistant-Integration/Thumbnail.png 
 tags: 
   - Home Assistant
   - MQTT
