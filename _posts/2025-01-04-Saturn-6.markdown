@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Saturn 6: A Compact 10” Minilab"
-date: 2025-01-20
+date: 2025-01-04
 categories: [Projects, Raspberry Pi, Networking]
 img: 2025-01-04-Saturn6/Saturn6-5-01042025.jpg 
 tags: [Saturn 6, Raspberry Pi, NAS, DIY, Homelab]
