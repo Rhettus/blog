@@ -22,6 +22,8 @@ This is **Saturn 6**: a compact 10” minilab that hosts 5x Raspberry Pi's and a
 
 <div id="lightbox" class="lightbox">
   <span class="close-button">&times;</span>
+  <span class="nav-button prev-button">&#10094;</span>
+  <span class="nav-button next-button">&#10095;</span>
   <img class="lightbox-content" id="lightbox-img">
   <div id="lightbox-caption"></div>
 </div>
@@ -85,6 +87,28 @@ This is **Saturn 6**: a compact 10” minilab that hosts 5x Raspberry Pi's and a
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.5);
   }
+  .nav-button {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    padding: 16px;
+    background-color: rgba(0,0,0,0.3);
+  }
+  .prev-button {
+    left: 15px;
+  }
+  .next-button {
+    right: 15px;
+  }
+  .nav-button:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
 </style>
 
 <script>
@@ -93,18 +117,20 @@ This is **Saturn 6**: a compact 10” minilab that hosts 5x Raspberry Pi's and a
     const lightboxImg = document.getElementById('lightbox-img');
     const lightboxCaption = document.getElementById('lightbox-caption');
     const closeButton = document.querySelector('.close-button');
+    const prevButton = document.querySelector('.prev-button');
+    const nextButton = document.querySelector('.next-button');
     const galleryImages = document.querySelectorAll('.image-gallery img');
 
     function showNextImage() {
-      const currentImg = document.querySelector('.image-gallery img[src="' + lightboxImg.src + '"]');
-      const nextImg = currentImg.nextElementSibling || document.querySelector('.image-gallery img:first-child');
+      const currentImg = Array.from(galleryImages).find(img => img.src === lightboxImg.src || img.getAttribute('data-full') === lightboxImg.src);
+      const nextImg = currentImg.nextElementSibling || galleryImages[0];
       lightboxImg.src = nextImg.getAttribute('data-full') || nextImg.src;
       lightboxCaption.textContent = nextImg.alt;
     }
 
     function showPreviousImage() {
-      const currentImg = document.querySelector('.image-gallery img[src="' + lightboxImg.src + '"]');
-      const prevImg = currentImg.previousElementSibling || document.querySelector('.image-gallery img:last-child');
+      const currentImg = Array.from(galleryImages).find(img => img.src === lightboxImg.src || img.getAttribute('data-full') === lightboxImg.src);
+      const prevImg = currentImg.previousElementSibling || galleryImages[galleryImages.length - 1];
       lightboxImg.src = prevImg.getAttribute('data-full') || prevImg.src;
       lightboxCaption.textContent = prevImg.alt;
     }
@@ -122,6 +148,14 @@ This is **Saturn 6**: a compact 10” minilab that hosts 5x Raspberry Pi's and a
     }
 
     closeButton.addEventListener('click', closeLightbox);
+    prevButton.addEventListener('click', function(e) {
+      e.stopPropagation();
+      showPreviousImage();
+    });
+    nextButton.addEventListener('click', function(e) {
+      e.stopPropagation();
+      showNextImage();
+    });
 
     lightbox.addEventListener('click', function(e) {
       if (e.target === this) {
@@ -142,8 +176,6 @@ This is **Saturn 6**: a compact 10” minilab that hosts 5x Raspberry Pi's and a
     });
   });
 </script>
-
-
 
 ## About the Build
 
