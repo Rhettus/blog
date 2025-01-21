@@ -11,25 +11,19 @@ This is **Saturn 6**: a compact 10” minilab that hosts 5x Raspberry Pi's and a
 
 <div class="image-gallery-container">
   <div class="image-gallery">
-    <a href="/assets/img/2025-01-04-Saturn6/Saturn6-1-01042025.jpg" class="gallery-item">
-      <img src="/assets/img/2025-01-04-Saturn6/Saturn6-1-01042025.jpg" alt="Description of image 1">
-    </a>
-    <a href="/assets/img/2025-01-04-Saturn6/Saturn6-2-01042025.jpg" class="gallery-item">
-      <img src="/assets/img/2025-01-04-Saturn6/Saturn6-2-01042025.jpg" alt="Description of image 1">
-    </a>
-    <a href="/assets/img/2025-01-04-Saturn6/Saturn6-3-01042025.jpg" class="gallery-item">
-      <img src="/assets/img/2025-01-04-Saturn6/Saturn6-3-01042025.jpg" alt="Description of image 1">
-    </a>
-    <a href="/assets/img/2025-01-04-Saturn6/Saturn6-4-01042025.jpg" class="gallery-item">
-      <img src="/assets/img/2025-01-04-Saturn6/Saturn6-4-01042025.jpg" alt="Description of image 1">
-    </a>
-    <a href="/assets/img/2025-01-04-Saturn6/Saturn6-5-01042025.jpg" class="gallery-item">
-      <img src="/assets/img/2025-01-04-Saturn6/Saturn6-5-01042025.jpg" alt="Description of image 1">
-    </a>
-    <a href="/assets/img/2025-01-04-Saturn6/Saturn6-6-01042025.jpg" class="gallery-item">
-      <img src="/assets/img/2025-01-04-Saturn6/Saturn6-6-01042025.jpg" alt="Description of image 1">
-    </a>
+    <img src="/assets/img/2025-01-04-Saturn6/Saturn6-1-01042025.jpg" alt="Saturn 6 Image 1" data-full="/assets/img/2025-01-04-Saturn6/Saturn6-1-01042025.jpg">
+    <img src="/assets/img/2025-01-04-Saturn6/Saturn6-2-01042025.jpg" alt="Saturn 6 Image 2" data-full="/assets/img/2025-01-04-Saturn6/Saturn6-2-01042025.jpg">
+    <img src="/assets/img/2025-01-04-Saturn6/Saturn6-3-01042025.jpg" alt="Saturn 6 Image 3" data-full="/assets/img/2025-01-04-Saturn6/Saturn6-3-01042025.jpg">
+    <img src="/assets/img/2025-01-04-Saturn6/Saturn6-4-01042025.jpg" alt="Saturn 6 Image 4" data-full="/assets/img/2025-01-04-Saturn6/Saturn6-4-01042025.jpg">
+    <img src="/assets/img/2025-01-04-Saturn6/Saturn6-5-01042025.jpg" alt="Saturn 6 Image 5" data-full="/assets/img/2025-01-04-Saturn6/Saturn6-5-01042025.jpg">
+    <img src="/assets/img/2025-01-04-Saturn6/Saturn6-6-01042025.jpg" alt="Saturn 6 Image 6" data-full="/assets/img/2025-01-04-Saturn6/Saturn6-6-01042025.jpg">
   </div>
+</div>
+
+<div id="lightbox" class="lightbox">
+  <span class="close-button">&times;</span>
+  <img class="lightbox-content" id="lightbox-img">
+  <div id="lightbox-caption"></div>
 </div>
 
 <style>
@@ -55,19 +49,101 @@ This is **Saturn 6**: a compact 10” minilab that hosts 5x Raspberry Pi's and a
   .image-gallery img:hover {
     transform: scale(1.05);
   }
+  .lightbox {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    justify-content: center;
+    align-items: center;
+  }
+  .lightbox-content {
+    max-width: 90%;
+    max-height: 90%;
+    object-fit: contain;
+  }
+  .close-button {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  #lightbox-caption {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
 </style>
 
 <script>
-  document.addEventListener("DOMContentLoaded", function() {
-    new SimpleLightbox('.image-gallery a', {
-      /* options */
-      captionPosition: 'bottom',
-      captionsData: 'alt',
-      heightRatio: 0.9,
-      widthRatio: 0.9
+  document.addEventListener('DOMContentLoaded', function() {
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImg = document.getElementById('lightbox-img');
+    const lightboxCaption = document.getElementById('lightbox-caption');
+    const closeButton = document.querySelector('.close-button');
+    const galleryImages = document.querySelectorAll('.image-gallery img');
+
+    function showNextImage() {
+      const currentImg = document.querySelector('.image-gallery img[src="' + lightboxImg.src + '"]');
+      const nextImg = currentImg.nextElementSibling || document.querySelector('.image-gallery img:first-child');
+      lightboxImg.src = nextImg.getAttribute('data-full') || nextImg.src;
+      lightboxCaption.textContent = nextImg.alt;
+    }
+
+    function showPreviousImage() {
+      const currentImg = document.querySelector('.image-gallery img[src="' + lightboxImg.src + '"]');
+      const prevImg = currentImg.previousElementSibling || document.querySelector('.image-gallery img:last-child');
+      lightboxImg.src = prevImg.getAttribute('data-full') || prevImg.src;
+      lightboxCaption.textContent = prevImg.alt;
+    }
+
+    galleryImages.forEach(img => {
+      img.addEventListener('click', function() {
+        lightbox.style.display = 'flex';
+        lightboxImg.src = this.getAttribute('data-full') || this.src;
+        lightboxCaption.textContent = this.alt;
+      });
+    });
+
+    function closeLightbox() {
+      lightbox.style.display = 'none';
+    }
+
+    closeButton.addEventListener('click', closeLightbox);
+
+    lightbox.addEventListener('click', function(e) {
+      if (e.target === this) {
+        closeLightbox();
+      }
+    });
+
+    document.addEventListener('keydown', function(e) {
+      if (lightbox.style.display === 'flex') {
+        if (e.key === 'Escape') {
+          closeLightbox();
+        } else if (e.key === 'ArrowRight') {
+          showNextImage();
+        } else if (e.key === 'ArrowLeft') {
+          showPreviousImage();
+        }
+      }
     });
   });
 </script>
+
+
 
 ## About the Build
 
