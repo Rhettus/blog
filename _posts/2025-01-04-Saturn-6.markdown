@@ -1,0 +1,112 @@
+---
+layout: post
+title: "Saturn 6: A Compact 10” Minilab"
+date: 2025-01-20
+categories: [Projects, Raspberry Pi, Networking]
+img: 2025-01-04-Saturn6/Saturn6-5-01042025.jpg 
+tags: [Saturn 6, Raspberry Pi, NAS, DIY, Homelab]
+---
+
+This is **Saturn 6**: a compact 10” minilab that hosts 5x Raspberry Pi's and an ARM-based NAS. It's a homage to the Saturn V rocket, my Mercury One 3D printer, and space exploration in general.
+
+<div class="image-gallery-container">
+  <div class="image-gallery">
+    <a href="/assets/img/2025-01-04-Saturn6/Saturn6-1-01042025.jpg" class="gallery-item">
+      <img src="/assets/img/2025-01-04-Saturn6/Saturn6-1-01042025.jpg" alt="Description of image 1">
+    </a>
+    <a href="/assets/img/2025-01-04-Saturn6/Saturn6-2-01042025.jpg" class="gallery-item">
+      <img src="/assets/img/2025-01-04-Saturn6/Saturn6-2-01042025.jpg" alt="Description of image 1">
+    </a>
+    <a href="/assets/img/2025-01-04-Saturn6/Saturn6-3-01042025.jpg" class="gallery-item">
+      <img src="/assets/img/2025-01-04-Saturn6/Saturn6-3-01042025.jpg" alt="Description of image 1">
+    </a>
+    <a href="/assets/img/2025-01-04-Saturn6/Saturn6-4-01042025.jpg" class="gallery-item">
+      <img src="/assets/img/2025-01-04-Saturn6/Saturn6-4-01042025.jpg" alt="Description of image 1">
+    </a>
+    <a href="/assets/img/2025-01-04-Saturn6/Saturn6-5-01042025.jpg" class="gallery-item">
+      <img src="/assets/img/2025-01-04-Saturn6/Saturn6-5-01042025.jpg" alt="Description of image 1">
+    </a>
+    <a href="/assets/img/2025-01-04-Saturn6/Saturn6-6-01042025.jpg" class="gallery-item">
+      <img src="/assets/img/2025-01-04-Saturn6/Saturn6-6-01042025.jpg" alt="Description of image 1">
+    </a>
+  </div>
+</div>
+
+<style>
+  .image-gallery-container {
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  .image-gallery {
+    display: flex;
+    gap: 10px;
+    padding: 10px 0;
+  }
+  .image-gallery img {
+    height: 200px;
+    width: auto;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  .image-gallery img:hover {
+    transform: scale(1.05);
+  }
+</style>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    new SimpleLightbox('.image-gallery a', {
+      /* options */
+      captionPosition: 'bottom',
+      captionsData: 'alt',
+      heightRatio: 0.9,
+      widthRatio: 0.9
+    });
+  });
+</script>
+
+## About the Build
+
+The chassis is made from 2020 T-slot extrusions I cut up, and almost everything else is 3D printed. This is a 100% DIY project—you can't buy this.
+
+## Hardware
+
+On the top panel sits a Unifi Access Point.
+
+| U | Device |
+|:-:|:-------|
+| 8 | Unifi USG |
+| 7 | Managed 2.5Gb PoE switch with 10G SFP+ - MokerLink |
+| 6 | Patch Panel |
+| 5 | Managed 2.5Gb PoE switch with 10G SFP+ - MokerLink |
+| 4 | 5x Raspberry Pi 5's (8GB), Waveshare PoE + NVMe hats |
+| 3 | "" |
+| 2 | NAS - CM3588 with 16GB RAM running OMV with 4x Crucial 4TB NVMe's in RAIDZ1 (10TB usable space) |
+| 1 | Blank - room for an N100 or ITX-based machine if required in the future. |
+
+## Design Philosophies
+
+- **Portable**: Designed for moving house, must be able to be unplugged and set up at a new location in minutes. Handles have been added for easy transport. Ethernet cables can be quickly detached using the rear patch panel.
+- **White Rack**: After years of dealing with black racks, black cables, and black servers—and not being able to see anything—I wanted something different. White racks make everything so much easier to see and work with.
+- **All in One**: A power and a single internet cable are the only connections needed to be fully operational. Power bricks and the ISP router can be attached to the DIN rail below.
+- **Labeling**: Everything must be labeled—cables, compute, etc. No more guessing what cable is what or what Pi is what.
+- **Flexible**: It handles standard home services while remaining versatile for lab experiments (Slurm, DBs, Kubernetes, Ansible... anything I feel like testing). I split the switches—one for home and one for the lab—so I can power off or reconfigure the lab switch without affecting the rest of the house.
+- **Accessible**: Fast and tool-less access to the hardware. It's no good if it's a pain to open up and work on. Panels can be removed with latches in seconds. Thanks, Team Voron!
+- **Power Efficient**: My compute needs are light, but it needs to be flexible for experimentation. Currently at ~80W including the highly inefficient Xfinity router and powering 3x Unifi AP's over PoE. I can reduce this to about 60W by powering off the rack AP and a few of the Pi's when not in use.
+
+## 3D Files
+
+For those interested, I’ve uploaded the 3D files to a [GitHub repository](https://github.com/Rhettus/Saturn6). Most of the chassis components are remixes, but the faceplates, panels, and skirts are my own design.
+
+### Notes:
+
+- The files were created in Tinkercad, so only STL files are available (no STEP files, sorry!).
+- I consider this an **alpha release**—it works for me, but tolerances could be tighter, and some parts could be designed more efficiently.
+
+---
+
+
