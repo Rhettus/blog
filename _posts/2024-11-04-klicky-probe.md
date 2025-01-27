@@ -2,13 +2,9 @@
 title: Klicky Probe - Mercury One 
 description: Adding a clicky probe to converted Ender 5 Pro, Eva 2.4, Octopus 1.1 + CRTouch
 date: 2024-11-04T18:43:24.954Z
-preview: ""
-draft: false
 img: 
-tags:
-    - 3d Printing
-categories: []
-type: default
+tags: [3d Printing]
+layout: post
 ---
 
 In order for me to do auto Z leveling so I can actually get consistent first layers, I needed to replace my CRTouch probe with a klicky probe, or any probe which can push down another probe. There are serveral advantages in doing this anyway including a lighter toolhead, more travel room and last but not least getting rid of that rattle box.
@@ -19,28 +15,34 @@ Full credits go to `turtlecrawler` for creating the parts and doing the initial 
 
 ## BOM (Build of materials)
 These are the parts you will need on hand to build a klicky probe
-8x 3x6mm n52 magnets
-CA glue (Super Glue)
-1x D2F-5 or D2F-5L micro switches (Remove the lever if you have one with a lever)
-2x m3 heatset inserts
-2x M2x10 self tapping screws
-2x M3x20 Socket Head Cap Screws
-2x M5x10 Socket Head Cap Screws
-2x M5 Roll in spring T-nuts
-22-24awg wire
-JST-SM or Microfit 3.0 connectors are recommended for use at the hotend
+
+| Quantity | Part Description                              |
+|----------|-----------------------------------------------|
+| 8x       | 3x6mm N52 magnets                             |
+| 1x       | CA glue (Super Glue)                          |
+| 1x       | D2F-5 or D2F-5L micro switches (Remove lever) |
+| 2x       | M3 heatset inserts                            |
+| 2x       | M2x10 self-tapping screws                    |
+| 2x       | M3x20 Socket Head Cap Screws                 |
+| 2x       | M5x10 Socket Head Cap Screws                 |
+| 2x       | M5 Roll-in spring T-nuts                     |
+| 1x       | 22-24 AWG wire                                |
+| 1x       | JST-SM or Microfit 3.0 connectors            |
 
 ## Printed parts
 All parts should be printed in ASA or ABS. 
 
 All parts were downloaded from the ZeroG discorder server under the "Community" channel. Download the "[Klicky_-_Trihorn_Ducxt_-_Merc.zip](https://discord.com/channels/747612067951018075/1010991671426682951)" 
+
 I'm also running the Revo hotend, so printed the Narrow/Default trihorn.
+
 All parts should be printed in ASA or ABS. 
+
 Since I'm running an old Ender 5 Pro with the original 235x235 bed I used the 65mm dock.
 
 ## Assembly
 
-Drill out the probe mount where the microsswitch fits in with a 1/16th drill bit so the legs can slide through.
+Drill out the probe mount where the microswitch fits in with a 1/16th drill bit so the legs can slide through.
 
 The microswitch only uses 2 pins
 
@@ -80,9 +82,6 @@ samples_tolerance_retries: 3
 
 You only need to edit `klicky-probe.cfg` and `klicky-variables.cfg`
 You should only have to adjust the dock location, bed size, and tool head park location.
-
-
-## Testing
 
 
 ## References
