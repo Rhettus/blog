@@ -6,7 +6,7 @@ categories: photography
 img: FastRawViewer_title.png 
 ---
 
-When taking thousands of photos during a birding outing, the last thing I want to do is import them all into Lightroom. Once they end up in my Lightroom catalog, they tend to stay there for life. Instead, I use FastRawViewer to identify keepers directly off the SD card before importing them into Lightroom. I usually keep fewer than 10 photos per session from approximately 1,500 shots. Speed of viewing and sorting directly to the sdcard is fast on my v90 rated sdcards connected over usb-c or usb3, I'm sure slower cards would make this workflow painful. 
+When taking thousands of photos during a birding outing, the last thing I want to do is import them all into Lightroom. Once they end up in my Lightroom catalog, they tend to stay there for life. Instead, I use [FastRawViewer](https://www.fastrawviewer.com/) to identify keepers directly off the SD card before importing them into Lightroom. I usually keep fewer than 10 photos per session from approximately 1,500 shots. Speed of viewing and sorting directly to the sdcard is fast on my v90 rated sdcards connected over usb-c or usb3, I'm sure slower cards would make this workflow painful. 
 
 This blog post covers step 2 in my workflow. For step 1—setting up the camera, see [OM-1 - Birds Settings](https://rhett.cc/om-1-birds-in-flight-settings/)
 
