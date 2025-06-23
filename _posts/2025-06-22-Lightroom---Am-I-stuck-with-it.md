@@ -28,12 +28,12 @@ I decided to break down my requirements into a matrix. These are the tasks I req
 | FastRawViewer     | Y             |                           |     |      |                 |            |            |           |             | $20              |
 | Photo Mechanic    | Y             | Y                         |     | Y    |                 |            |            |           |             | $200             |
 | Darktable         |               | X                         | B   | Y    | Y               |            |            |           | Y           | Free             |
-| Photomator        |               |                           | B   | Y    |                 | Y          | `Y`        |           |             | $30/year         |
+| Photomator        |               |                           | B   | Y    |                 | Y          | Y          |           |             | $30/year         |
 | Excire Photo      | Y             |                           | Y   | Y    |                 |            |            |           |             | $200             |
 | PTGui             |               |                           |     |      |                 |            |            | Y         |             | $205             |
 | DxO PureRAW       |               |                           |     |      | Y               | Y          |            |           |             | $120             |
 | Hugin             |               |                           |     |      |                 |            |            | Y         |             | Free             |
-| Lightroom Classic |               | Y                         | Y   | Y    | Y               | Y          | Y          | Y         | Y – plugin  | $120/year        |
+| Lightroom Classic |               | Y                         | Y   | Y    | Y               | Y          | Y          | Y         | Y – plugin  | $180/year        |
 | Photoshop         |               |                           |     |      | Y               | Y          | Y          | Y         | Y           | Bundled with LrC |
 
 **Y = Yes**  
@@ -219,7 +219,7 @@ Best paired with Lightroom. Especially valuable for photographers who also do cr
 
 **Best Overall:** Lightroom
 
-At $10/month, Lightroom actually ends up cheaper than combining the best-in-class tools. The ultimate setup for quality might be:
+At $15/month, Lightroom + Photshop actually ends up cheaper than combining the best-in-class tools. The ultimate setup for quality might be:
 
 - Photo Mechanic – $200  
 - Excire Photo – $200  
