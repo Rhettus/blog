@@ -21,20 +21,20 @@ _Before evaluating tools, here are the core stages of my workflow:_
 - Export (often with borders)
 
 
-I decided to break down my requirements into a matrix. These are the tasks I require for my workflows:
+I decided to break down my requirements into a matrix. These are the tasks I require for my photo workflow:
 
-| Application       | Quick Culling | Ingest without Duplicates | DAM | EXIF | Lens Correction | AI Denoise | AI Masking | Panoramas | Add Borders | Price            |
-| ----------------- | ------------- | ------------------------- | --- | ---- | --------------- | ---------- | ---------- | --------- | ----------- | ---------------- |
-| FastRawViewer     | Y             |                           |     |      |                 |            |            |           |             | $20              |
-| Photo Mechanic    | Y             | Y                         |     | Y    |                 |            |            |           |             | $200             |
-| Darktable         |               | X                         | B   | Y    | Y               |            |            |           | Y           | Free             |
-| Photomator        |               |                           | B   | Y    |                 | Y          | Y          |           |             | $30/year         |
-| Excire Photo      | Y             |                           | Y   | Y    |                 |            |            |           |             | $200             |
-| PTGui             |               |                           |     |      |                 |            |            | Y         |             | $205             |
-| DxO PureRAW       |               |                           |     |      | Y               | Y          |            |           |             | $120             |
-| Hugin             |               |                           |     |      |                 |            |            | Y         |             | Free             |
-| Lightroom Classic |               | Y                         | Y   | Y    | Y               | Y          | Y          | Y         | Y – plugin  | $180/year        |
-| Photoshop         |               |                           |     |      | Y               | Y          | Y          | Y         | Y           | Bundled with LrC |
+| Application       | Quick Culling | Ingest w/o Duplicates | DAM | EXIF | Lens Correction | AI Denoise | AI Masking | Panoramas | Add Borders | Price            |
+| ----------------- | ------------- | --------------------- | --- | ---- | --------------- | ---------- | ---------- | --------- | ----------- | ---------------- |
+| FastRawViewer     | Y             |                       |     |      |                 |            |            |           |             | $20              |
+| Photo Mechanic    | Y             | Y                     |     | Y    |                 |            |            |           |             | $200             |
+| Darktable         |               | Y                     | B   | Y    | Y               |            |            |           | Y           | Free             |
+| Photomator        |               |                       | B   | Y    |                 | Y          | Y          |           |             | $30/year         |
+| Excire Photo      | Y             |                       | Y   | Y    |                 |            |            |           |             | $200             |
+| PTGui             |               |                       |     |      |                 |            |            | Y         |             | $205             |
+| DxO PureRAW       |               |                       |     |      | Y               | Y          |            |           |             | $120             |
+| Hugin             |               |                       |     |      |                 |            |            | Y         |             | Free             |
+| Lightroom Classic |               | Y                     | Y   | Y    | Y               | Y          | Y          | Y         | Y – plugin  | $180/year        |
+| Photoshop         |               |                       |     |      | Y               | Y          | Y          | Y         | Y           | Bundled with LrC |
 
 **Y = Yes**  
 **B = Basic Support**
