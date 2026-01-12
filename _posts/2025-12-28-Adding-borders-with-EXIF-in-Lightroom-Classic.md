@@ -6,10 +6,11 @@ categories: photography
 ---
 
 I'm writing this post as I get a few requests about how I do my borders with EXIF embedded in them on my photos I post to Discord.
-v1
+
+v1 - The original
 ![image](/assets/img/2025-12-28-Adding-borders-with-EXIF-in-Lightroom-Classic/Say's-Phoebe-20251227.jpg)
 
-v2
+v2 - Designed to blend in a little more to keep attentionmainly on the photo
 ![image](/assets/img/2025-12-28-Adding-borders-with-EXIF-in-Lightroom-Classic/Black-crowned Night Heron-20260111.jpg)
 
 This will work on Windows and Mac's as long as you install the LRMorgify plugin correctly. It requires Imagemagik which is included in the Mac version, but needs extra steps for Windows. Just follow the instructions.
@@ -19,7 +20,7 @@ This will work on Windows and Mac's as long as you install the LRMorgify plugin 
  - [LRMorgify](https://www.photographers-toolbox.com/products/lrmogrify2.php) - A small donation to register
  - [Barlow Font](https://fonts.google.com/specimen/Barlow) - Free font from Google
  - [Montserrat Font (light)](https://fonts.google.com/specimen/Montserrat) - Font for v2 of template
- - [My Export Template]({{ site.baseurl }}/assets/Discord-43.lrtemplate)
+ - [v1 of template]({{ site.baseurl }}/assets/Discord-43.lrtemplate)
  - [v2 of template]({{ site.baseurl }}/assets/Discord-43v2.lrtemplate)
 
 
